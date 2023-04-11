@@ -2,6 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="style/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -11,6 +12,23 @@
 <body>
 
 <header>
+    <img src="image/menu_button.png" class="button-menu" hidden>
+    <img src="image/menu_button2.png" class="button-menu2" hidden>
+    <div class="small-screen-menu">
+        <ul class="header-screen">
+            <li class="head-list-screen"><a href="index.html" class="link-screen">Главная</a></li> 
+            <li class="head-list-screen"><a href="#" class="link-screen">Фотогалерея</a></li>   
+            <li class="head-list-screen1"><a href="#" class="link-screen" id="button-screen">Куда сходить в Крыму</a>
+            <ul class="ul-list-screen1">
+                    <li><a href="#" class="link-screen">Пешие походы</a></li>
+                    <li><a href="#" class="link-screen">Автомобильные туры</a></li>
+                    <li><a href="#" class="link-screen">Индивидуальные маршруты</a></li>
+                </ul> 
+            </li>
+            <li class="head-list-screen"><a href="#" class="link-screen">Контакты или отзыввы хз</a></li>   
+        </ul>
+    </div>
+
     <ul class="header">
         <li class="head-list"><a href="index.html" class="link">Главная</a></li> 
         <li class="head-list"><a href="#" class="link">Фотогалерея</a></li>   
@@ -24,6 +42,8 @@
         <li class="head-list"><a href="#" class="link">Контакты или отзыввы хз</a></li>   
     </ul>
 </header>
+
+
 <article>
     <div class="bg-image">
     <div>Крым
@@ -41,19 +61,19 @@
 
 <nav>
     <div class="nav-info">
-        <div class="nav-title">
+        <div class="nav-title" id="nav-title1">
             <h2>Площадь Крыма</h2>
             <p>Около 26 860 км</p>
         </div>
-        <div class="nav-title">
+        <div class="nav-title" id="nav-title2">
             <h2>Достопримечательностей</h2>
             <p>Более 350</p>
         </div>
-        <div class="nav-title">
+        <div class="nav-title" id="nav-title3">
             <h2>Длина Крымских гор</h2>
             <p>Около 160 км</p>
         </div>
-        <div class="nav-title">
+        <div class="nav-title" id="nav-title4">
             <h2>Наивысшая точка</h2>
             <p>Гора Роман-Кош высотой 1545 м</p>
         </div>
@@ -82,7 +102,7 @@
 </nav>
 <main>
     <div class="menu-title">Туристические места Крыма</div>
-    <div class="menu">
+    <div class="menu" class="container">
 
         <div class="menu-box12">
             <div class="menu-box1">
@@ -125,7 +145,7 @@
                         Горный массив Демерджи по праву считается одним из самых живописных в Крыму.
                          Путешествуя по трассе, соединяющей Симферополь и Алушту, вблизи Ангарского
                           перевала можно увидеть гору, вершина которой напоминает крепость. 
-                          Гора Демерджи на солнце способна менять цвет, являясь горой-хамелеоном.</div>
+                          Гора Демерджи на солнце меняет цвет, являясь горой-хамелеоном.</div>
                           <span class="box1-title-info">Сложность маршрута:
                             <img src="image/star_hard2.png" class="box1-title-info-img"> </span>
                 </div>
@@ -168,12 +188,11 @@
                         </ul>
                     </div>
                     <div class="box4-content">
-                        <div class="box4-title">Судакская херня какая то</div>
+                        <div class="box4-title">Скала - Филин кая</div>
                         <div class="box4-text">
-                            Судак курава падла - ещера Кырк-Азис представляет собой грот в правом обрывистом борту р. Зуя,
-                            максимальная высота которого достигает 3 метра, ширина и длина около 6 метров.
-                            На стенах и в многочисленных естественных нишах грота видны обильные остатки от горевших тут свечей,
-                            а потолок закопчен дымом.</div>
+                            Филин кая это одна из скал в урочище Зеленогорья. Лёгкий подъем, потрясающий вид.
+                                Находится на южном побережье полуострова, в Алуштинском районе. 
+                                Но ближе к городу Судак.</div>
                             <span class="box1-title-info">Сложность маршрута:
                                 <img src="image/star_hard2.png" class="box1-title-info-img"> </span>
                     </div>
@@ -181,8 +200,6 @@
         </div>
     </div>
 </main>
-
-
 <footer>
     <div class="footer-manu">
         <div class="footer-top">
@@ -212,6 +229,8 @@
         </div>
     </div>
 </footer>
+
+
 <script src="script/script1.js"></script>
 <script src="script/script2.js"></script>
 </body>
