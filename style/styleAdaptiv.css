@@ -42,6 +42,27 @@
   main {
     height: 1350px;
   }
+  section {
+    height: 400px;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 10px;
+  }
+  section .section-box .carousel li img {
+    width: 400px;
+    height: 320px;
+  }
+  footer {
+    height: 170px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-bot {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   .container {
@@ -97,11 +118,11 @@
   main {
     height: 3430px;
     max-width: none;
-    margin: 0 0px 70px 50px;
+    margin: 0 0px 90px 50px;
   }
   .menu-title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 16px;
     text-shadow: rgb(206, 204, 204) 2px 2px 2px;
   }
@@ -112,6 +133,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: baseline;
+  }
+  section {
+    height: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: -25%;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 400px;
+    height: 320px;
   }
   footer {
     height: 170px;
@@ -242,6 +283,15 @@
   nav .nav-info .nav-title p {
     margin: 5px 5px;
   }
+  section {
+    height: 390px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: -35%;
+  }
   footer {
     height: 110px;
   }
@@ -293,6 +343,7 @@
   article .bg-image div ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 10px;
   }
   article .bg-image div ul .article-list-br {
@@ -358,6 +409,24 @@
   }
   span {
     display: none;
+  }
+  section {
+    height: 320px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: 0;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 320px;
+    height: 250px;
   }
   footer {
     height: 215px;
@@ -428,5 +497,23 @@
   }
   span {
     display: none;
+  }
+  section {
+    height: 320px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: 0;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 290px;
+    height: 250px;
   }
 }/*# sourceMappingURL=styleAdaptiv.css.map */

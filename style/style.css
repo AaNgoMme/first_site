@@ -298,7 +298,7 @@ nav .nav-box .nav-box45 .nav-box7 img {
 
 main {
   padding-right: 50px;
-  margin: 0 100px 100px 100px;
+  margin: 0 100px 50px 100px;
 }
 
 .menu-title {
@@ -385,11 +385,63 @@ main {
   margin-left: 20px;
 }
 
+section {
+  margin-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 20px;
+  height: 450px;
+}
+section .section-box h2 {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 16px;
+  color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+  margin: 20px 0 20px 0;
+}
+section .section-box h2 .link {
+  text-decoration: none;
+  color: #000000;
+}
+section .section-box .carousel {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+section .section-box .carousel li {
+  display: inline-block;
+  scroll-snap-align: center;
+  border-radius: 3px;
+  font-size: 0;
+  margin: 20px;
+}
+section .section-box .carousel li img {
+  width: 600px;
+  height: 380px;
+  display: block;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.carousel::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.active {
+  scroll-snap-type: unset;
+}
+
 footer {
   width: 100%;
   height: 200px;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
 }
 footer .footer-manu {
   padding-left: 40px;
@@ -440,10 +492,11 @@ footer .footer-manu .footer-top .footer-right li {
 }
 footer .footer-manu .footer-line {
   position: absolute;
-  width: 90%;
+  width: 85%;
   height: 0px;
   border: 1px solid #a8a8a8;
   margin-left: 5%;
+  margin-right: 100px;
 }
 footer .footer-manu .footer-bot {
   font-size: 10px;
@@ -509,6 +562,27 @@ footer .footer-manu .footer-bot {
     height: 630px;
     margin: 40px 5% 0 70px;
   }
+  section {
+    height: 400px;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 10px;
+  }
+  section .section-box .carousel li img {
+    width: 400px;
+    height: 320px;
+  }
+  footer {
+    height: 170px;
+  }
+  .footer-line {
+    display: none;
+  }
+  .footer-bot {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   .container {
@@ -564,11 +638,11 @@ footer .footer-manu .footer-bot {
   main {
     height: 3430px;
     max-width: none;
-    margin: 0 0px 70px 50px;
+    margin: 0 0px 90px 50px;
   }
   .menu-title {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 24px;
     line-height: 16px;
     text-shadow: rgb(206, 204, 204) 2px 2px 2px;
   }
@@ -602,6 +676,26 @@ footer .footer-manu .footer-bot {
     line-height: 14px;
     color: #000000;
     margin: 25px 25px;
+  }
+  section {
+    height: 400px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: -25%;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 400px;
+    height: 320px;
   }
   footer {
     height: 170px;
@@ -755,6 +849,15 @@ footer .footer-manu .footer-bot {
   nav .nav-info .nav-title p {
     margin: 5px 5px;
   }
+  section {
+    height: 390px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: -35%;
+  }
   footer {
     height: 110px;
   }
@@ -806,6 +909,7 @@ footer .footer-manu .footer-bot {
   article .bg-image div ul {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin-top: 10px;
   }
   article .bg-image div ul .article-list-br {
@@ -889,6 +993,24 @@ footer .footer-manu .footer-bot {
   }
   span {
     display: none;
+  }
+  section {
+    height: 320px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: 0;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 320px;
+    height: 250px;
   }
   footer {
     height: 215px;
@@ -977,5 +1099,23 @@ footer .footer-manu .footer-bot {
   }
   span {
     display: none;
+  }
+  section {
+    height: 320px;
+  }
+  section .section-box h2 {
+    font-size: 24px;
+  }
+  section .section-box .carousel {
+    margin-left: 0;
+  }
+  section .section-box .carousel li {
+    border-radius: 3px;
+    font-size: 0;
+    margin: 20px 5px 20px 5px;
+  }
+  section .section-box .carousel li img {
+    width: 290px;
+    height: 250px;
   }
 }/*# sourceMappingURL=style.css.map */
