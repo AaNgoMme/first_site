@@ -135,7 +135,6 @@
     align-items: baseline;
   }
   section {
-    height: 400px;
     padding-left: 0px;
     padding-right: 0px;
   }
@@ -146,22 +145,7 @@
     margin-left: -25%;
   }
   section .section-box .carousel li {
-    border-radius: 3px;
-    font-size: 0;
     margin: 20px 5px 20px 5px;
-  }
-  section .section-box .carousel li img {
-    width: 400px;
-    height: 320px;
-  }
-  footer {
-    height: 170px;
-  }
-  .footer-line {
-    display: none;
-  }
-  .footer-bot {
-    display: none;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -319,12 +303,6 @@
   }
   footer .footer-manu .footer-top .footer-left ul li a {
     font-size: 14px;
-  }
-  .footer-line {
-    display: none;
-  }
-  .footer-bot {
-    display: none;
   }
 }
 @media only screen and (max-width: 500px) {

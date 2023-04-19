@@ -207,7 +207,6 @@ $wt: 100%;
 
 
     section {
-        height: 400px;
         padding-left: 0px;
         padding-right: 0px;
         .section-box {
@@ -217,27 +216,10 @@ $wt: 100%;
             .carousel {
                 margin-left: -25%;
                 li {
-                    border-radius: 3px;
-                    font-size: 0;
                     margin: 20px 5px 20px 5px;
-                    img {
-                        width: 400px;
-                        height: 320px;         
-                    }
                 }
             }
         }
-    }
-
-
-    footer {
-        height: 170px;
-    }
-    .footer-line {        
-        display: none;
-    }
-    .footer-bot {
-        display: none;
     }
 }
 
@@ -456,12 +438,6 @@ $wt: 100%;
                 }
             }
         }
-    }
-    .footer-line {        
-        display: none;
-    }
-    .footer-bot {
-        display: none;
     }
 }
 
