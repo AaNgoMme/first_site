@@ -1,3 +1,6 @@
+
+// галерея 
+
 let menuImageList = document.querySelectorAll(".menu-image-list");
 let boxImage = document.querySelector(".box1-image1");
 
@@ -34,6 +37,7 @@ for (let menuImage4 of menuImageList4) {
     };
 };
 
+// открывает меню "куда сходить в Крыму"
 
 let button = document.querySelector("#button");
 let ul = document.querySelector(".head-list1");
@@ -41,6 +45,9 @@ let ul = document.querySelector(".head-list1");
 button.onclick = function() {
     ul.classList.toggle("open");
 };
+
+
+// меню на маленьких экранах
 
 let buttonMenu = document.querySelector('.button-menu');
 let small = document.querySelector(".small-screen-menu");
@@ -75,6 +82,8 @@ window.addEventListener('resize', function() {
 });
 
 
+//Карусель, листать фото зажимая 
+
 const slider = document.querySelector('.carousel');
 let isDown = false;
 let startX;
@@ -103,3 +112,29 @@ slider.addEventListener('mousemove', e => {
     slider.scrollLeft = scrollLeft - walk;
 });
 
+
+// Увелечение фото в карусели на экранах ниже 992
+
+let modal = document.querySelector("#modal");
+let carousel = document.querySelectorAll(".carousel img");
+let modalImage = document.querySelector("#modal-img");
+let modalClose = document.querySelector(".close");
+
+if (document.documentElement.clientWidth < 992) {
+
+for (let carouselImage of carousel) {
+    carouselImage.onclick = function() {
+        modal.style.display = "block";
+        modalImage.src = carouselImage.src;
+    }
+}
+
+modalClose.onclick = function() {
+  modal.style.display = "none";
+}
+
+modalImage.onclick = function() {
+    modal.style.display = "none";
+}
+
+}

@@ -26,9 +26,6 @@ $wt: 100%;
         height: 370px;
     }
     
-    main {
-        height: 1600px;
-    }
     %boxmenu {
         width: 600px;
         height: 750px;
@@ -41,13 +38,20 @@ $wt: 100%;
         width: $wt;
         height: 400px;
     }
-    main {
-        height: 1530px;
-    }
     %boxmenu {
         width: 520px;
         height: 710px;
         margin: 40px 5% 0 70px;
+    }
+    .menu-title {
+        margin-bottom: -50px;
+        .menu-title1 {
+            font-size: 24px;
+        }
+        .menu-title2 {
+            max-width: 900px;
+            font-size: 20px;
+        }
     }
 }
 
@@ -60,13 +64,26 @@ $wt: 100%;
         width: $wt;
         height: 300px;
     }
-    main {
-        height: 1350px;
-    }
     %boxmenu {
         width: 420px;
         height: 630px;
         margin: 40px 5% 0 70px;
+    }
+    main {
+        .menu-title {
+            margin-bottom: -50px;
+            .menu-title1 {
+                font-size: 24px;
+            }
+            .menu-title2 {
+                max-width: 800px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000000;
+                margin: 50px 0px;
+                text-align: center;
+            }
+        }
     }
 
     section {
@@ -162,17 +179,24 @@ $wt: 100%;
 
     
     main {
-        height: 3430px;
         max-width: none;
-        margin: 0 0px 90px 50px;
-    }
-    .menu-title {
-        font-weight: 700;
-        font-size: 24px;
-        line-height: 16px;
-        text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+        margin: 0 0px 50px 50px;
+        .menu-title {
+            margin-bottom: -50px;
+            .menu-title1 {
+                font-size: 24px;
+            }
+            .menu-title2 {
+                max-width: 700px;
+                font-size: 20px;
+                line-height: 25px;
+                color: #000000;
+                margin: 50px 0px;
+                text-align: center;
+            }
         }
-    .menu{
+    }
+    .menu {
         width: 100%;
         height: 100%;
         display: flex;
@@ -346,16 +370,19 @@ $wt: 100%;
 
 
     main {
-        height: 2900px;
-        max-width: none;
-        margin: 0 0px 90px 50px;
-    }
-    .menu-title {
-        font-weight: 700;
-        font-size: 20px;
-        line-height: 16px;
-        text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+        margin: 0 0px 0px 50px;
+        .menu-title {
+            margin-bottom: -40px;
+            .menu-title2 {
+                max-width: 500px;
+                font-size: 17px;
+                line-height: 15px;
+                color: #000000;
+                margin: 20px 0px;
+                text-align: center;
+            }
         }
+    }
     .menu{
         width: 100%;
         height: 100%;
@@ -521,15 +548,19 @@ $wt: 100%;
 
 
     main {
-        height: 2150px;
-        max-width: none;
-        margin: 0 0px 90px 20px;
-        padding: 0 20px 0 0;
-    }
-    .menu-title {
-        font-size: 19px;
-        line-height: 16px;
+        margin: 0 0px 0px 10px;
+        padding: 0 10px 0 0px;
+        .menu-title {
+            margin-bottom: -30px;        
+            .menu-title1{
+                font-size: 19px;
+            }
+            .menu-title2 {
+                font-size: 14px;
+
+            }
         }
+    }
     .menu{
         display: flex;
         flex-direction: column;
@@ -654,9 +685,7 @@ $wt: 100%;
     
 
     main {
-        height: 2000px;
         max-width: none;
-        margin: 0 0px 70px 10px;
         padding: 0 10px 0 0;
     }
     .menu-title {

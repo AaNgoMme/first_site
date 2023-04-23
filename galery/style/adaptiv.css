@@ -2,6 +2,10 @@
   article .galery {
     padding: 0 0px 0 0px;
   }
+  article .galery h2 {
+    max-width: 700px;
+    font-size: 22px;
+  }
   article .galery .galery-box {
     max-width: 980px;
   }
@@ -30,6 +34,10 @@
 @media (max-width: 992px) {
   article .galery {
     padding: 0 5px 0 5px;
+  }
+  article .galery h2 {
+    max-width: 600px;
+    font-size: 20px;
   }
   article .galery .galery-title {
     font-size: 34px;
@@ -99,6 +107,10 @@
   article .galery {
     padding: 0px 0px 0px 0px;
   }
+  article .galery h2 {
+    max-width: 470px;
+    font-size: 20px;
+  }
   article .galery .galery-title {
     font-size: 34px;
   }
@@ -150,6 +162,10 @@
   header .open {
     display: block;
     height: 290px;
+  }
+  article .galery h2 {
+    max-width: 350px;
+    font-size: 18px;
   }
   article .galery .galery-title {
     font-size: 34px;
@@ -209,6 +225,10 @@
   }
   header .open ul li a {
     font-size: 13px;
+  }
+  article .galery h2 {
+    max-width: 270px;
+    font-size: 18px;
   }
   article .galery .galery-box {
     padding: 0 0px 30px 0px;

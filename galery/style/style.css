@@ -116,8 +116,15 @@ article .galery .galery-title {
   align-items: center;
   justify-content: center;
   text-shadow: rgb(206, 204, 204) 2px 2px 2px;
-  margin: 20px 0 20px 0;
   margin: 40px 0 20px 0;
+}
+article .galery h2 {
+  max-width: 800px;
+  font-weight: 400;
+  font-size: 25px;
+  color: #000000;
+  margin: 20px 0 20px 0;
+  text-align: center;
 }
 article .galery .galery-box {
   display: flex;
@@ -194,33 +201,6 @@ section .section-modal .modal-content, section .section-modal .modal-caption {
   animation-duration: 0.6s;
 }
 
-/*div.photoset {
-    padding: 2px;
-    background-color: #ffffff;
-    max-width: 800px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    .photo {
-       position: relative;
-       flex-grow: 1; 
-       min-width: calc(100% / 3); //This is the maximum number (3) in a row bit
-       background-size: cover;
-       background-position: center;
-
-       &:after {
-          //Aspect Ratio
-          padding-top: 83.33333%; //For 5:6 height to width ratio
-          display: block;
-          content: "";
-       }
-
-       &:nth-child(1) {
-        width: 100%;
-     }
-    }
- }*/
 footer {
   width: 100%;
   height: 200px;
@@ -291,6 +271,10 @@ footer .footer-manu .footer-bot {
   article .galery {
     padding: 0 0px 0 0px;
   }
+  article .galery h2 {
+    max-width: 700px;
+    font-size: 22px;
+  }
   article .galery .galery-box {
     max-width: 980px;
   }
@@ -319,6 +303,10 @@ footer .footer-manu .footer-bot {
 @media (max-width: 992px) {
   article .galery {
     padding: 0 5px 0 5px;
+  }
+  article .galery h2 {
+    max-width: 600px;
+    font-size: 20px;
   }
   article .galery .galery-title {
     font-size: 34px;
@@ -388,6 +376,10 @@ footer .footer-manu .footer-bot {
   article .galery {
     padding: 0px 0px 0px 0px;
   }
+  article .galery h2 {
+    max-width: 470px;
+    font-size: 20px;
+  }
   article .galery .galery-title {
     font-size: 34px;
   }
@@ -439,6 +431,10 @@ footer .footer-manu .footer-bot {
   header .open {
     display: block;
     height: 290px;
+  }
+  article .galery h2 {
+    max-width: 350px;
+    font-size: 18px;
   }
   article .galery .galery-title {
     font-size: 34px;
@@ -498,6 +494,10 @@ footer .footer-manu .footer-bot {
   }
   header .open ul li a {
     font-size: 13px;
+  }
+  article .galery h2 {
+    max-width: 270px;
+    font-size: 18px;
   }
   article .galery .galery-box {
     padding: 0 0px 30px 0px;
