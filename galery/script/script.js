@@ -37,7 +37,7 @@ function someFunc() {
     someFunc();
   });
 
-
+// Увеличение фото
 
 let modal = document.querySelector("#modal");
 let galery = document.querySelectorAll(".galery-box #image-zoom");
@@ -45,7 +45,6 @@ let modalImage = document.querySelector("#modal-img");
 let captionText = document.querySelector(".modal-caption");
 let modalClose = document.querySelector(".close");
 
-if (document.documentElement.clientWidth > 767) {
 
 for (let galeryImage of galery) {
     galeryImage.onclick = function() {
@@ -59,4 +58,3 @@ modalClose.onclick = function() {
   modal.style.display = "none";
 }
 
-}

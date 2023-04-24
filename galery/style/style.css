@@ -471,6 +471,7 @@ footer .footer-manu .footer-bot {
   footer .footer-manu .footer-top .footer-right li {
     font-size: 14px;
     margin: 5px -50px;
+    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
@@ -482,6 +483,7 @@ footer .footer-manu .footer-bot {
   footer .footer-manu .footer-top .footer-left ul li {
     font-size: 14px;
     margin: 5px 0px;
+    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left ul li a {
     font-size: 14px;

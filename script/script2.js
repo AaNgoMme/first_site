@@ -2,38 +2,38 @@
 // галерея 
 
 let menuImageList = document.querySelectorAll(".menu-image-list");
-let boxImage = document.querySelector(".box1-image1");
+let boxImage = document.querySelector(".box1-image1 img");
 
 for (let menuImage of menuImageList) {
     menuImage.onclick = function() {
-        boxImage.innerHTML = `<img src="${menuImage.src}" class="box1-image">`;
+        boxImage.src = menuImage.src
     };
 };
 
 let menuImageList2 = document.querySelectorAll(".menu-image-list2");
-let boxImage2 = document.querySelector(".box2-image2");
+let boxImage2 = document.querySelector(".box2-image2 img");
 
 for (let menuImage2 of menuImageList2) {
     menuImage2.onclick = function() {
-        boxImage2.innerHTML = `<img src="${menuImage2.src}">`;
+        boxImage2.src = menuImage2.src
     };
 };
 
 let menuImageList3 = document.querySelectorAll(".menu-image-list3");
-let boxImage3 = document.querySelector(".box3-image3");
+let boxImage3 = document.querySelector(".box3-image3 img");
 
 for (let menuImage3 of menuImageList3) {
     menuImage3.onclick = function() {
-        boxImage3.innerHTML = `<img src="${menuImage3.src}">`;
+        boxImage3.src = menuImage3.src;
     };
 };
 
 let menuImageList4 = document.querySelectorAll(".menu-image-list4");
-let boxImage4 = document.querySelector(".box4-image4");
+let boxImage4 = document.querySelector(".box4-image4 img");
 
 for (let menuImage4 of menuImageList4) {
     menuImage4.onclick = function() {
-        boxImage4.innerHTML = `<img src="${menuImage4.src}">`;
+        boxImage4.src = menuImage4.src;
     };
 };
 

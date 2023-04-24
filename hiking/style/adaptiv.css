@@ -175,14 +175,21 @@
     text-shadow: 1px 1px 1px #ffffff;
     text-decoration: none;
   }
+  article {
+    padding: 20px 20px 0 20px;
+  }
   article h1 {
     font-size: 28px;
     margin: 30px 0 5px 0;
   }
   article p {
-    padding: 20px;
+    padding: 10px;
     font-size: 18px;
     line-height: 28px;
+  }
+  article img {
+    display: block;
+    width: 100%;
   }
   main {
     max-width: none;
@@ -237,6 +244,7 @@
   }
   main .main-box1 .box1 .box1-images .box1-image1 {
     margin: 10px 0px 0 0;
+    order: 3;
   }
   main .main-box1 .box1 .box1-images .box1-image1 img {
     width: 100%;
@@ -244,6 +252,21 @@
     -o-object-fit: cover;
        object-fit: cover;
     cursor: zoom-in;
+  }
+  main .main-box1 .box1 .box1-images .box1-image1 .box-buttons {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .main-box1 .box1 .box1-images .box1-image1 .box-buttons button {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 50%;
+    margin: 2px 0px 0 0px;
+    font-size: 30px;
   }
   main .main-box1 .box1 .box1-images .box1-image23 {
     display: none;
@@ -301,6 +324,21 @@
     -o-object-fit: cover;
        object-fit: cover;
     cursor: zoom-in;
+  }
+  main .main-box2 .box2 .box2-images .box2-image1 .box-buttons {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .main-box2 .box2 .box2-images .box2-image1 .box-buttons button {
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    border: 0;
+    height: 40px;
+    width: 50%;
+    margin: 2px 0px 0 0px;
+    font-size: 30px;
   }
   main .main-box2 .box2 .box2-images .box2-image23 {
     display: none;
@@ -392,6 +430,7 @@
   footer .footer-manu .footer-top .footer-right li {
     font-size: 14px;
     margin: 5px -50px;
+    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
@@ -403,6 +442,7 @@
   footer .footer-manu .footer-top .footer-left ul li {
     font-size: 14px;
     margin: 5px 0px;
+    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left ul li a {
     font-size: 14px;
