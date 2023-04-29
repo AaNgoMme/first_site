@@ -166,6 +166,10 @@
                         font-size: 14px; 
                         margin: 5px 0px; 
                     }
+                    img {
+                        width: 60px;
+                        height: 20px;
+                    }
                 }
                 .footer-left {
                     margin-top: -10px;
@@ -229,7 +233,7 @@
     }
 
     footer {
-        height: 215px;
+        height: 225px;
         .footer-manu {
             .footer-top {
                 display: flex;
@@ -242,7 +246,7 @@
                     }
                     li {
                         font-size: 14px; 
-                        margin: 5px -50px;
+                        margin: 5px -65px;
                         text-align: center;
                     }
                 }

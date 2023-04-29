@@ -1,6 +1,8 @@
 @import "nullstyle.scss";
 
-
+body {
+    font-family: 'Roboto', sans-serif; 
+}
 
 header {
     
@@ -103,7 +105,6 @@ article {
                 cursor: zoom-in;
             }
 
-            }
             .medium_image {
                 width: 49.3%;
                 height: 370px;
@@ -111,6 +112,7 @@ article {
             }
         }
     }
+}
 
 section {
     .section-modal {
@@ -212,9 +214,13 @@ section {
                     text-shadow: rgb(206, 204, 204) 2px 2px 2px;
                 }
                 li {
-                    margin: 10px 10px; 
+                    margin: 10px 0px; 
                     font-size: 16px;
-
+                }
+                img {
+                    width: 80px;
+                    height: 25px;
+                    border-radius: 10px;
                 }
             }
         }

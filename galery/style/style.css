@@ -48,6 +48,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 header {
   height: 60px;
   width: 100%;
@@ -147,7 +151,7 @@ article .galery .galery-box .small_image {
   height: 350px;
   cursor: zoom-in;
 }
-article .galery .medium_image {
+article .galery .galery-box .medium_image {
   width: 49.3%;
   height: 370px;
   cursor: zoom-in;
@@ -251,8 +255,13 @@ footer .footer-manu .footer-top .footer-right h2 {
   text-shadow: rgb(206, 204, 204) 2px 2px 2px;
 }
 footer .footer-manu .footer-top .footer-right li {
-  margin: 10px 10px;
+  margin: 10px 0px;
   font-size: 16px;
+}
+footer .footer-manu .footer-top .footer-right img {
+  width: 80px;
+  height: 25px;
+  border-radius: 10px;
 }
 footer .footer-manu .footer-line {
   position: absolute;
@@ -412,6 +421,10 @@ footer .footer-manu .footer-bot {
     font-size: 14px;
     margin: 5px 0px;
   }
+  footer .footer-manu .footer-top .footer-right img {
+    width: 60px;
+    height: 20px;
+  }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
   }
@@ -455,7 +468,7 @@ footer .footer-manu .footer-bot {
     height: 350px;
   }
   footer {
-    height: 215px;
+    height: 225px;
   }
   footer .footer-manu .footer-top {
     display: flex;
@@ -470,7 +483,7 @@ footer .footer-manu .footer-bot {
   }
   footer .footer-manu .footer-top .footer-right li {
     font-size: 14px;
-    margin: 5px -50px;
+    margin: 5px -65px;
     text-align: center;
   }
   footer .footer-manu .footer-top .footer-left {
