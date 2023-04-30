@@ -36,7 +36,6 @@ $wt: 100%;
 @media (max-width:1400px) {
     article {
         width: $wt;
-        height: 400px;
     }
     %boxmenu {
         width: 520px;
@@ -62,7 +61,7 @@ $wt: 100%;
 @media (max-width:1200px) {
     article {
         width: $wt;
-        height: 300px;
+        height: 450px;
     }
     %boxmenu {
         width: 420px;
@@ -125,7 +124,7 @@ $wt: 100%;
     }
     article {
         width: $wt;
-        height: 350px;
+        height: 400px;
     }
 
     nav .nav-box .nav-box123 .nav-box3 h2 {
@@ -252,31 +251,32 @@ $wt: 100%;
 
 
 @media only screen and (max-width:767px) {
-    .header {
-        display: none;
-    }
     header {
         display: flex;
         align-items: center;
         justify-content: start;
         height: 40px;
+        background: rgb(216, 216, 216);
+        .header {
+            display: none;
+        }
+        .small-screen-menu {
+            display: none;        
+        }
         .button-menu {
             display: block;
             width: 50px;
             height: 35px;
             visibility: visible;
         }
-        .small-screen-menu {
-            display: none;
-        }
         .open {
             display: block;
-            height: 320px;
+            height: 230px;
             width: 100%;
             position: relative;
-            top: 125px;
+            top: 70px;
             padding: 5px 0px 0px 0px;
-            background-color: #cfcece;
+            background-color: rgb(216, 216, 216);
             //background: rgba(236, 236, 236, 0.9);
             padding-top: 70px;
             ul {
@@ -284,11 +284,10 @@ $wt: 100%;
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0px;
-            }
                 li {
-                    margin-top: 7px;
+                    margin-top: 9px;
                     a {
-                        font-size: 16px;
+                        font-size: 20px;
                         font-weight: 300;
                         line-height: 14px;
                         color: #000000;
@@ -297,6 +296,7 @@ $wt: 100%;
                     }
 
                 }
+            }
         }
     }
 
@@ -481,9 +481,17 @@ $wt: 100%;
     header {
         .open {
             display: block;
-            height: 290px;
+            height: 230px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
+
     article {
         width: $wt;
         height: 270px;
@@ -545,8 +553,11 @@ $wt: 100%;
             }
         }
     }
-     #nav-title4, #nav-title2 {
+    #nav-title4, #nav-title2 {
         display: none;
+    }
+    #nav-title1 p{
+        margin-left: 0px;
     }
 
 
@@ -662,12 +673,10 @@ $wt: 100%;
 
 @media only screen and (max-width:374px) {
 
-    header {
+     header {
         .open {
-            height: 280px;
-            padding-top: 20px;
              ul li a {
-                        font-size: 13px;
+                        font-size: 17px;
                     }
         }
     }

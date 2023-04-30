@@ -55,7 +55,7 @@ header {
     
     height: 60px;
     width: $wt;
-    background: rgba(236, 236, 236);
+    background: rgb(236, 236, 236);
     .small-screen-menu {
         display: none;
     }
@@ -96,6 +96,7 @@ header {
             text-decoration: none;
             margin: 0 10px;
             transition: 0.1s;
+            cursor: pointer;
         }
         .link:hover {
             color: #85a3db;
@@ -163,6 +164,7 @@ nav {
             }
             p {
                 @extend %boxtext;
+                text-align: center;
                 margin: 15px 0px;
             }
         }
@@ -544,8 +546,8 @@ section {
 footer {
     width: 100%;
     height: 200px;
-    background-color: rgba(236, 236, 236); 
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(216, 216, 216); 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     .footer-manu {
         padding-left: 40px;
         padding-right: 40px;

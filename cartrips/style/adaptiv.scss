@@ -49,9 +49,12 @@
             .box1{
                 .box1-text {
                     margin-right: 40px;
+                    h3 {
+                        font-size: 24px;
+                    }
                     p {
                         max-width: 1050px;
-                        font-size: 18px;
+                        font-size: 20px;
                     }
                 }
                 .box1-images {
@@ -67,9 +70,12 @@
                 .box2-text {
                     margin-left: 0px;
                     margin-right: 0px;
+                    h3 {
+                        font-size: 24px;
+                    }
                     p {
                         max-width: 1050px;
-                        font-size: 18px;
+                        font-size: 20px;
                     }
                 }
                 .box2-images {
@@ -144,7 +150,7 @@
                     p {
                         max-width: 1050px;
                         font-weight: 300;
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                 }
             }
@@ -157,10 +163,10 @@
             .box2 {           
                 .box2-text {
                     h3 {
-                        font-size: 16px;
+                        font-size: 20px;
                     }
                     p {
-                        font-size: 14px;
+                        font-size: 18px;
                     }
                 }
             }
@@ -189,23 +195,23 @@
         }
         .open {
             display: block;
-            height: 320px;
+            height: 230px;
             width: 100%;
             position: relative;
-            top: 125px;
+            top: 70px;
             padding: 5px 0px 0px 0px;
-            background-color: #cfcece;
+            background-color: rgb(216, 216, 216);
+            //background: rgba(236, 236, 236, 0.9);
             padding-top: 70px;
             ul {
                 display: block;
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0px;
-            }
                 li {
-                    margin-top: 7px;
+                    margin-top: 9px;
                     a {
-                        font-size: 16px;
+                        font-size: 20px;
                         font-weight: 300;
                         line-height: 14px;
                         color: #000000;
@@ -214,8 +220,9 @@
                     }
 
                 }
+            }
         }
-    }  
+    }
 
     article {
         padding: 20px 20px 0 20px;
@@ -263,7 +270,7 @@
                     p {
                         width: 100%;
                         font-weight: 300;
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                 }
                 .box1-images {
@@ -324,7 +331,7 @@
                     p {
                         width: 100%;
                         font-weight: 300;
-                        font-size: 16px;
+                        font-size: 18px;
                     }
                 }
                 .box2-images {
@@ -413,9 +420,23 @@
     header {
         .open {
             display: block;
-            height: 290px;
+            height: 230px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
+
+    article {
+        h1 {
+            font-size: 24px;
+            margin: 30px 0 5px 0;
+        }
+    } 
 
 
     main {
@@ -479,13 +500,18 @@
 
     header {
         .open {
-            height: 280px;
-            padding-top: 20px;
              ul li a {
-                        font-size: 13px;
-                    }
+                font-size: 17px;
+            }
         }
     }
+
+    article {
+        h1 {
+            font-size: 20px;
+            margin: 30px 0 5px 0;
+        }
+    } 
 
 
 

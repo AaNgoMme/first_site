@@ -55,8 +55,8 @@ body {
 header {
   height: 60px;
   width: 100%;
-  background: rgb(236, 236, 236);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+  background: rgb(216, 216, 216);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 header .small-screen-menu {
   display: none;
@@ -76,8 +76,8 @@ header ul .open ul {
   position: relative;
   top: 20px;
   padding: 5px 0px 0px 0px;
-  background-color: #d6d5d5;
-  background: rgb(236, 236, 236);
+  background-color: rgb(216, 216, 216);
+  background: rgb(216, 216, 216);
 }
 header ul .open ul li {
   margin-top: 7px;
@@ -99,6 +99,7 @@ header ul .link {
   text-decoration: none;
   margin: 0 10px;
   transition: 0.1s;
+  cursor: pointer;
 }
 header ul .link:hover {
   color: #85a3db;
@@ -208,8 +209,8 @@ section .section-modal .modal-content, section .section-modal .modal-caption {
 footer {
   width: 100%;
   height: 200px;
-  background-color: rgb(236, 236, 236);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(216, 216, 216);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 footer .footer-manu {
   padding-left: 40px;
@@ -357,12 +358,12 @@ footer .footer-manu .footer-bot {
   }
   header .open {
     display: block;
-    height: 320px;
+    height: 230px;
     width: 100%;
     position: relative;
-    top: 125px;
+    top: 70px;
     padding: 5px 0px 0px 0px;
-    background-color: #cfcece;
+    background-color: rgb(216, 216, 216);
     padding-top: 70px;
   }
   header .open ul {
@@ -371,11 +372,11 @@ footer .footer-manu .footer-bot {
     margin-left: 30px;
     padding: 0px;
   }
-  header .open li {
-    margin-top: 7px;
+  header .open ul li {
+    margin-top: 9px;
   }
-  header .open li a {
-    font-size: 16px;
+  header .open ul li a {
+    font-size: 20px;
     font-weight: 300;
     line-height: 14px;
     color: #000000;
@@ -443,7 +444,10 @@ footer .footer-manu .footer-bot {
 @media only screen and (max-width: 500px) {
   header .open {
     display: block;
-    height: 290px;
+    height: 230px;
+  }
+  header .open ul li a {
+    font-size: 18px;
   }
   article .galery h2 {
     max-width: 350px;
@@ -503,12 +507,8 @@ footer .footer-manu .footer-bot {
   }
 }
 @media only screen and (max-width: 374px) {
-  header .open {
-    height: 280px;
-    padding-top: 20px;
-  }
   header .open ul li a {
-    font-size: 13px;
+    font-size: 17px;
   }
   article .galery h2 {
     max-width: 270px;

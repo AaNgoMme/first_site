@@ -179,10 +179,10 @@
             .box2 {           
                 .box2-text {
                     h3 {
-                        font-size: 16px;
+                        font-size: 20px;
                     }
                     p {
-                        font-size: 14px;
+                        font-size: 16px;
                     }
                 }
             }
@@ -211,23 +211,23 @@
         }
         .open {
             display: block;
-            height: 320px;
+            height: 230px;
             width: 100%;
             position: relative;
-            top: 125px;
+            top: 70px;
             padding: 5px 0px 0px 0px;
-            background-color: #cfcece;
+            background-color: rgb(216, 216, 216);
+            //background: rgba(236, 236, 236, 0.9);
             padding-top: 70px;
             ul {
                 display: block;
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0px;
-            }
                 li {
-                    margin-top: 7px;
+                    margin-top: 9px;
                     a {
-                        font-size: 16px;
+                        font-size: 20px;
                         font-weight: 300;
                         line-height: 14px;
                         color: #000000;
@@ -236,8 +236,9 @@
                     }
 
                 }
+            }
         }
-    }  
+    }
 
     article {
         padding: 20px 20px 0 20px;
@@ -298,7 +299,8 @@
                     p {
                         width: 100%;
                         font-weight: 300;
-                        font-size: 16px;
+                        font-size: 18px;
+                        line-height: 20px;
                     }
                 }
                 .box1-images {
@@ -373,7 +375,8 @@
                     p {
                         width: 100%;
                         font-weight: 300;
-                        font-size: 16px;
+                        font-size: 18px;
+                        line-height: 20px;
                     }
                 }
                 .box2-images {
@@ -462,7 +465,14 @@
     header {
         .open {
             display: block;
-            height: 290px;
+            height: 230px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
 
@@ -559,15 +569,26 @@
 
     header {
         .open {
-            height: 280px;
-            padding-top: 20px;
              ul li a {
-                        font-size: 13px;
-                    }
+                font-size: 17px;
+            }
         }
     }
 
+    main {
+        .main-box1 {
+            margin-bottom: 0px;
+                h2 {
+                    font-size: 18px;
+                }
+            }
 
+        .main-box2 {
+            h2 {
+                font-size: 18px;
+            }
+        }
+    }
 
 
 

@@ -144,6 +144,7 @@ header ul .link {
   text-decoration: none;
   margin: 0 10px;
   transition: 0.1s;
+  cursor: pointer;
 }
 header ul .link:hover {
   color: #85a3db;
@@ -209,6 +210,7 @@ nav .nav-info .nav-title h2 {
   color: #000000;
 }
 nav .nav-info .nav-title p {
+  text-align: center;
   margin: 15px 0px;
 }
 nav .nav-box {
@@ -498,8 +500,8 @@ section .section-modal .close:hover, section .section-modal .close:focus {
 footer {
   width: 100%;
   height: 200px;
-  background-color: rgb(236, 236, 236);
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  background-color: rgb(216, 216, 216);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
 }
 footer .footer-manu {
   padding-left: 40px;
@@ -598,7 +600,6 @@ footer .footer-manu .footer-bot {
 @media (max-width: 1400px) {
   article {
     width: 100%;
-    height: 400px;
   }
   .menu .menu-box12 .menu-box1, .menu .menu-box12 .menu-box2, .menu .menu-box34 .menu-box3, .menu .menu-box34 .menu-box4 {
     width: 520px;
@@ -619,7 +620,7 @@ footer .footer-manu .footer-bot {
 @media (max-width: 1200px) {
   article {
     width: 100%;
-    height: 300px;
+    height: 450px;
   }
   .menu .menu-box12 .menu-box1, .menu .menu-box12 .menu-box2, .menu .menu-box34 .menu-box3, .menu .menu-box34 .menu-box4 {
     width: 420px;
@@ -668,7 +669,7 @@ footer .footer-manu .footer-bot {
   }
   article {
     width: 100%;
-    height: 350px;
+    height: 400px;
   }
   nav .nav-box .nav-box123 .nav-box3 h2 {
     font-size: 33px;
@@ -777,14 +778,18 @@ footer .footer-manu .footer-bot {
   }
 }
 @media only screen and (max-width: 767px) {
-  .header {
-    display: none;
-  }
   header {
     display: flex;
     align-items: center;
     justify-content: start;
     height: 40px;
+    background: rgb(216, 216, 216);
+  }
+  header .header {
+    display: none;
+  }
+  header .small-screen-menu {
+    display: none;
   }
   header .button-menu {
     display: block;
@@ -792,17 +797,14 @@ footer .footer-manu .footer-bot {
     height: 35px;
     visibility: visible;
   }
-  header .small-screen-menu {
-    display: none;
-  }
   header .open {
     display: block;
-    height: 320px;
+    height: 230px;
     width: 100%;
     position: relative;
-    top: 125px;
+    top: 70px;
     padding: 5px 0px 0px 0px;
-    background-color: #cfcece;
+    background-color: rgb(216, 216, 216);
     padding-top: 70px;
   }
   header .open ul {
@@ -811,11 +813,11 @@ footer .footer-manu .footer-bot {
     margin-left: 30px;
     padding: 0px;
   }
-  header .open li {
-    margin-top: 7px;
+  header .open ul li {
+    margin-top: 9px;
   }
-  header .open li a {
-    font-size: 16px;
+  header .open ul li a {
+    font-size: 20px;
     font-weight: 300;
     line-height: 14px;
     color: #000000;
@@ -966,7 +968,10 @@ footer .footer-manu .footer-bot {
 @media only screen and (max-width: 500px) {
   header .open {
     display: block;
-    height: 290px;
+    height: 230px;
+  }
+  header .open ul li a {
+    font-size: 18px;
   }
   article {
     width: 100%;
@@ -1026,6 +1031,9 @@ footer .footer-manu .footer-bot {
   }
   #nav-title4, #nav-title2 {
     display: none;
+  }
+  #nav-title1 p {
+    margin-left: 0px;
   }
   main {
     margin: 0 0px 0px 10px;
@@ -1121,12 +1129,8 @@ footer .footer-manu .footer-bot {
   }
 }
 @media only screen and (max-width: 374px) {
-  header .open {
-    height: 280px;
-    padding-top: 20px;
-  }
   header .open ul li a {
-    font-size: 13px;
+    font-size: 17px;
   }
   article {
     width: 100%;

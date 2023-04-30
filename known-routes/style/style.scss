@@ -34,8 +34,8 @@ header {
     
     height: 60px;
     width: 100%;
-    background: rgba(236, 236, 236);
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.25);
+    background: rgb(216, 216, 216);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     .small-screen-menu {
         display: none;        
     }
@@ -53,8 +53,8 @@ header {
             position: relative;
             top: 20px;
             padding: 5px 0px 0px 0px;
-            background-color: #d6d5d5;
-            background: rgba(236, 236, 236);
+            background-color: rgb(216, 216, 216);
+            background: rgb(216, 216, 216);
                 li {
                     margin-top: 7px;
                     a {
@@ -76,6 +76,7 @@ header {
             text-decoration: none;
             margin: 0 10px;
             transition: 0.1s;
+            cursor: pointer;
         }
         .link:hover {
             color: #85a3db;
@@ -119,24 +120,6 @@ main {
         margin-bottom: 50px;
         h2 {
             @extend %h2
-        }
-        .box1-title {
-            display: flex;
-            justify-content: space-around;
-            margin: 40px 0 20px 0;
-            .title1 {
-                h3 {
-                    @extend %h3;
-                }
-                p {
-                    @extend %boxtext;
-                    color: #363636;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 5px 0 0px 0;
-                }
-            } 
         }
         .box1 {
             display: flex;
@@ -193,24 +176,6 @@ main {
         margin-bottom: 50px;
         h2 {
             @extend %h2
-        }
-        .box2-title {
-            display: flex;
-            justify-content: space-around;
-            margin: 40px 0 20px 0;
-            .title2 {
-                h3 {
-                    @extend %h3;
-                }
-                p {
-                    @extend %boxtext;
-                    color: #363636;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 5px 0 0px 0;
-                }
-            } 
         }
         .box2 {
             display: flex;
@@ -327,8 +292,8 @@ section {
 footer {
     width: 100%;
     height: 200px;
-    background-color: rgba(236, 236, 236); 
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    background-color: rgb(216, 216, 216); 
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     .footer-manu {
         padding-left: 40px;
         padding-right: 40px;

@@ -104,12 +104,12 @@
         }
         .open {
             display: block;
-            height: 320px;
+            height: 230px;
             width: 100%;
             position: relative;
-            top: 125px;
+            top: 70px;
             padding: 5px 0px 0px 0px;
-            background-color: #cfcece;
+            background-color: rgb(216, 216, 216);
             //background: rgba(236, 236, 236, 0.9);
             padding-top: 70px;
             ul {
@@ -117,11 +117,10 @@
                 justify-content: center;
                 margin-left: 30px;
                 padding: 0px;
-            }
                 li {
-                    margin-top: 7px;
+                    margin-top: 9px;
                     a {
-                        font-size: 16px;
+                        font-size: 20px;
                         font-weight: 300;
                         line-height: 14px;
                         color: #000000;
@@ -130,6 +129,7 @@
                     }
 
                 }
+            }
         }
     }
 
@@ -227,9 +227,19 @@
     header {
         .open {
             display: block;
-            height: 290px;
+            height: 230px;
+            ul {
+                li {
+                    a {
+                        font-size: 18px;
+                    }
+                }
+            }
         }
     }
+
+
+
 
     article {
         margin: 0 10px 0 10px;
@@ -320,11 +330,9 @@
 
     header {
         .open {
-            height: 280px;
-            padding-top: 20px;
              ul li a {
-                        font-size: 13px;
-                    }
+                font-size: 17px;
+            }
         }
     }
 
