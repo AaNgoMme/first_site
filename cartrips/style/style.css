@@ -352,15 +352,14 @@ footer .footer-manu .footer-top .footer-right h2 {
   color: #000000;
   margin: 20px 5px;
   text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+  text-align: center;
 }
-footer .footer-manu .footer-top .footer-right li {
-  margin: 10px 0px;
-  font-size: 16px;
+footer .footer-manu .footer-top .footer-right a {
+  margin: 0px 2px 0px 2px;
+  text-decoration: none;
 }
-footer .footer-manu .footer-top .footer-right img {
-  width: 80px;
-  height: 25px;
-  border-radius: 10px;
+footer .footer-manu .footer-top .footer-right a svg {
+  border-radius: 5px;
 }
 footer .footer-manu .footer-line {
   position: absolute;
@@ -695,14 +694,6 @@ footer .footer-manu .footer-bot {
     font-size: 18px;
     margin-left: 0;
   }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px 0px;
-  }
-  footer .footer-manu .footer-top .footer-right img {
-    width: 60px;
-    height: 20px;
-  }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
   }
@@ -752,11 +743,6 @@ footer .footer-manu .footer-bot {
   footer .footer-manu .footer-top .footer-right h2 {
     font-size: 17px;
     margin-left: 0;
-  }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px -65px;
-    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;

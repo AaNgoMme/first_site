@@ -118,6 +118,7 @@ slider.addEventListener('mousemove', e => {
 let modal = document.querySelector("#modal");
 let carousel = document.querySelectorAll(".carousel img");
 let modalImage = document.querySelector("#modal-img");
+let captionText = document.querySelector(".modal-caption");
 let modalClose = document.querySelector(".close");
 
 if (document.documentElement.clientWidth < 992) {
@@ -126,6 +127,7 @@ for (let carouselImage of carousel) {
     carouselImage.onclick = function() {
         modal.style.display = "block";
         modalImage.src = carouselImage.src;
+        captionText.innerHTML = carouselImage.alt;
     }
 }
 

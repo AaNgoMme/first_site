@@ -487,6 +487,10 @@ section .section-modal .close:hover, section .section-modal .close:focus {
   text-decoration: none;
   cursor: pointer;
 }
+section .section-modal .modal-content, section .section-modal .modal-caption {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
 
 .carousel::-webkit-scrollbar {
   width: 0;
@@ -545,15 +549,14 @@ footer .footer-manu .footer-top .footer-right h2 {
   color: #000000;
   margin: 20px 5px;
   text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+  text-align: center;
 }
-footer .footer-manu .footer-top .footer-right li {
-  margin: 10px 10px;
-  font-size: 16px;
+footer .footer-manu .footer-top .footer-right a {
+  margin: 0px 2px 0px 2px;
+  text-decoration: none;
 }
-footer .footer-manu .footer-top .footer-right img {
-  width: 80px;
-  height: 25px;
-  border-radius: 10px;
+footer .footer-manu .footer-top .footer-right a svg {
+  border-radius: 5px;
 }
 footer .footer-manu .footer-line {
   position: absolute;
@@ -942,14 +945,6 @@ footer .footer-manu .footer-bot {
     font-size: 18px;
     margin-left: 0;
   }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px 0px;
-  }
-  footer .footer-manu .footer-top .footer-right img {
-    width: 60px;
-    height: 20px;
-  }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
   }
@@ -1072,7 +1067,7 @@ footer .footer-manu .footer-bot {
   .menu .menu-box12 .menu-box1 .box1-title-info, .menu .menu-box12 .menu-box2 .box1-title-info, .menu .menu-box34 .menu-box3 .box3-title-info, .menu .menu-box34 .menu-box4 .box1-title-info {
     font-size: 11px;
   }
-  span {
+  main span {
     display: none;
   }
   section {
@@ -1107,11 +1102,6 @@ footer .footer-manu .footer-bot {
     font-size: 17px;
     margin-left: 0;
   }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px -65px;
-    text-align: center;
-  }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
   }
@@ -1119,13 +1109,12 @@ footer .footer-manu .footer-bot {
     font-size: 17px;
     margin-left: 15px;
   }
-  footer .footer-manu .footer-top .footer-left ul li {
-    font-size: 14px;
-    margin: 5px 0px;
+  footer .footer-manu .footer-top .footer-left li {
     text-align: center;
   }
-  footer .footer-manu .footer-top .footer-left ul li a {
-    font-size: 14px;
+  footer .footer-manu .footer-top .footer-left li a {
+    margin: 0px 2px 0px 2px;
+    text-decoration: none;
   }
 }
 @media only screen and (max-width: 374px) {
@@ -1173,9 +1162,6 @@ footer .footer-manu .footer-bot {
   }
   .menu .menu-box12 .menu-box1 .box1-title-info, .menu .menu-box12 .menu-box2 .box1-title-info, .menu .menu-box34 .menu-box3 .box3-title-info, .menu .menu-box34 .menu-box4 .box1-title-info {
     font-size: 11px;
-  }
-  span {
-    display: none;
   }
   section {
     height: 320px;

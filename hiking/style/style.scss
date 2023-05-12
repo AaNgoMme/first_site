@@ -372,15 +372,14 @@ footer {
                     color: #000000;
                     margin: 20px 5px;
                     text-shadow: rgb(206, 204, 204) 2px 2px 2px;
+                    text-align: center;
                 }
-                li {
-                    margin: 10px 0px; 
-                    font-size: 16px;
-                }
-                img {
-                    width: 80px;
-                    height: 25px;
-                    border-radius: 10px;
+                a {
+                    margin: 0px 2px 0px 2px; 
+                    text-decoration: none;
+                    svg {
+                        border-radius: 5px;
+                    }
                 }
             }
         }

@@ -444,14 +444,6 @@ $wt: 100%;
                         font-size: 18px; 
                         margin-left: 0; 
                     }
-                    li {
-                        font-size: 14px; 
-                        margin: 5px 0px; 
-                    }
-                    img {
-                        width: 60px;
-                        height: 20px;
-                    }
                 }
                 .footer-left {
                     margin-top: -10px;
@@ -601,9 +593,11 @@ $wt: 100%;
     %boxtitleinfo {
         font-size: 11px;
     }
-    span {
-        display: none;
-    }
+    main {
+        span {
+            display: none;
+        }
+}
 
     section {
         height: 320px;
@@ -639,12 +633,7 @@ $wt: 100%;
                     margin-top: -10px;
                     h2 {
                         font-size: 17px; 
-                        margin-left: 0; 
-                    }
-                    li {
-                        font-size: 14px; 
-                        margin: 5px -65px;
-                        text-align: center;
+                        margin-left: 0;
                     }
                 }
                 .footer-left {
@@ -653,12 +642,13 @@ $wt: 100%;
                         font-size: 17px; 
                         margin-left: 15px;
                     }
-                    ul li {
-                        font-size: 14px;   
-                        margin: 5px 0px;  
+                    li {
                         text-align: center;
+                    
                         a {
-                            font-size: 14px;
+                            margin: 0px 2px 0px 2px; 
+                            text-decoration: none;
+                            
                         }
                     }
                 }
@@ -731,9 +721,6 @@ $wt: 100%;
     }
     %boxtitleinfo {
         font-size: 11px;
-    }
-    span {
-        display: none;
     }
 
 

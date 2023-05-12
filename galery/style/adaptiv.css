@@ -139,14 +139,6 @@
     font-size: 18px;
     margin-left: 0;
   }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px 0px;
-  }
-  footer .footer-manu .footer-top .footer-right img {
-    width: 60px;
-    height: 20px;
-  }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
   }
@@ -205,11 +197,6 @@
   footer .footer-manu .footer-top .footer-right h2 {
     font-size: 17px;
     margin-left: 0;
-  }
-  footer .footer-manu .footer-top .footer-right li {
-    font-size: 14px;
-    margin: 5px -65px;
-    text-align: center;
   }
   footer .footer-manu .footer-top .footer-left {
     margin-top: -10px;
